@@ -1,4 +1,4 @@
-cat > /tmp/README.md << 'ENDOFREADME'
+
 # 🏎️ Formula 1 Data Analysis Platform — Incremental Load
 
 An end-to-end data engineering project built on **Azure Databricks** and **Azure Data Lake Storage Gen2 (ADLS Gen2)**, implementing the **Medallion Architecture** (Bronze → Silver → Gold) with **incremental batch processing** for Formula 1 racing data. The project delivers insights on **Driver Standings** and **Constructor Standings** through analysis notebooks and interactive dashboards, governed by **Unity Catalog**.
@@ -441,20 +441,11 @@ Navigate to **Databricks Dashboards** in the workspace to view Driver and Constr
 
 ## 👤 Author
 
-**Javed**
+**A Y Javed** |
 Lead Technical Consultant | Azure Data Engineer
-[LinkedIn](https://linkedin.com/in/your-profile) | [GitHub](https://github.com/your-username)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+[LinkedIn](https://linkedin.com/in/ayjaved) | [GitHub](https://github.com/javedju)
 
 ---
 
 *Built with ❤️ using Azure Databricks, Delta Lake, Unity Catalog & PySpark*
-ENDOFREADME
 
-echo "README created successfully"
-wc -l /tmp/README.md
